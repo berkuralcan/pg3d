@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+model-viewer{
+    poster-color: transparent;
+    --poster-color: transparent;
+}
+
+.main-h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.3px;
+    color: #e4c7c7;
+    font-size: 24px;
+    margin: 10px auto;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(271deg, #000000, #505050, #1e1e1e);
+    background-size: 600% 600%;
+
+    -webkit-animation: DarkGradient 27s ease infinite;
+    -moz-animation: DarkGradient 27s ease infinite;
+    animation: DarkGradient 27s ease infinite;
+}
+
+@-webkit-keyframes DarkGradient {
+    0%{background-position:1% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:1% 0%}
+}
+@-moz-keyframes DarkGradient {
+    0%{background-position:1% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:1% 0%}
+}
+@keyframes DarkGradient {
+    0%{background-position:1% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:1% 0%}
+}
+
+.test {
+    height: 80vh;
+    margin: 10px auto;
+    width: 90vw;   
+}
+
+.test:focus {
+    outline: none !important;
+}
+
+.userInput {
+    outline: 0
+}
+.userInput:webkit-direct-focus {
+    outline: 0 !important;
+}
+
+.play-button {
+
+    cursor: pointer;
+    
+}
+
+.play-button__icon  {
+    font-size: 50px;
+
+}
+
+.bottom-bar {
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.change-button {
+    cursor: pointer;
+    font-size: 50px;
+}

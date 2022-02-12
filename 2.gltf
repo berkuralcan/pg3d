@@ -1,0 +1,175 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.4.40",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "PINOK2.4mil (1)_cell.006",
+            "translation" : [
+                0.00013410579413175583,
+                3.1364383175969124e-05,
+                -2.1170126274228096e-05
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Default OBJ",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "PINOK2.4mil (1)_cell.006",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 7,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 33328,
+            "max" : [
+                0.0568016842007637,
+                0.03548303246498108,
+                0.043373752385377884
+            ],
+            "min" : [
+                -0.05614105239510536,
+                -0.037867240607738495,
+                -0.05006670206785202
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 33328,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 33328,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 176436,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 754,
+            "max" : [
+                0.0568016842007637,
+                0.020566748455166817,
+                0.043373752385377884
+            ],
+            "min" : [
+                -0.054060157388448715,
+                -0.04214830696582794,
+                -0.05006670206785202
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 754,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 754,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 2214,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 190350,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5168,
+            "byteOffset" : 190352
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 195520,
+            "uri" : "Parca_02.bin"
+        }
+    ]
+}
